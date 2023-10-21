@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "elements",
+	"version": "${version}",
+	"name": "Elements Survival",
+	"description": "A mod made for the Elements Survival server by Nukebob3",
+	"authors": [
+		"Nukebob3"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/elements/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.nukebob.elements.ElementsSurvival"
+		],
+		"client": [
+			"net.nukebob.elements.ElementsSurvivalClient"
+		],
+		"fabric-datagen": [
+			"net.nukebob.elements.ElementsSurvivalDataGenerator"
+		]
+	},
+	"mixins": [
+		"elements.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.23",
+		"minecraft": "~1.20.2",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
