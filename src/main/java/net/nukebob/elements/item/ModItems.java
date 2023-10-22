@@ -9,10 +9,13 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.nukebob.elements.ElementsSurvival;
+import net.nukebob.elements.item.custom.AmongusItem;
+import net.nukebob.elements.item.custom.ElementStoneItem;
 
 public class ModItems {
-    public static final Item ELEMENT_STONE = registerItem("element_stone", new Item(new FabricItemSettings()));
-    public static final Item AMONGUS = registerItem("amongus", new Item(new FabricItemSettings()));
+    public static final Item ELEMENT_STONE = registerItem("element_stone", new ElementStoneItem(new FabricItemSettings()));
+    public static final Item AMONGUS = registerItem("amongus",
+            new AmongusItem(new FabricItemSettings().maxCount(1)));
 
     private static void addItemsToToolsItemGroup(FabricItemGroupEntries entries) {
         entries.add(ELEMENT_STONE);
