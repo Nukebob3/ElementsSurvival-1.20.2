@@ -1,6 +1,9 @@
 {
-  "item.elements.element_stone": "Element Stone",
+  "item.elements.element_stone": "§dElement Stone",
   "item.elements.amongus": "Amongus",
 
-  "itemgroup.elements": "Elements Item Group"
+  "itemgroup.elements": "Elements Item Group",
+
+  "tooltip.elements.amongus.tooltip": "SUS",
+  "tooltip.elements.element_stone.tooltip": "SUS"
 }

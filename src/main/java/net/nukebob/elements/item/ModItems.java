@@ -13,7 +13,8 @@ import net.nukebob.elements.item.custom.AmongusItem;
 import net.nukebob.elements.item.custom.ElementStoneItem;
 
 public class ModItems {
-    public static final Item ELEMENT_STONE = registerItem("element_stone", new ElementStoneItem(new FabricItemSettings()));
+    public static final Item ELEMENT_STONE = registerItem("element_stone",
+            new ElementStoneItem(new FabricItemSettings().maxCount(1)));
     public static final Item AMONGUS = registerItem("amongus",
             new AmongusItem(new FabricItemSettings().maxCount(1)));
 
