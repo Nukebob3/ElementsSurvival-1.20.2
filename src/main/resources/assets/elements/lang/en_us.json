@@ -5,5 +5,7 @@
   "itemgroup.elements": "Elements Item Group",
 
   "tooltip.elements.amongus.tooltip": "SUS",
-  "tooltip.elements.element_stone.tooltip": "SUS"
+  "tooltip.elements.element_stone.tooltip": "SUS",
+
+  "block.elements.gullibillium_block": "Gullibillium Block"
 }

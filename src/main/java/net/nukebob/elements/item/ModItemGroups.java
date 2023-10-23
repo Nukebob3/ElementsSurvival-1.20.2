@@ -8,6 +8,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 import net.nukebob.elements.ElementsSurvival;
+import net.nukebob.elements.block.ModBlocks;
 
 public class ModItemGroups {
     public static final ItemGroup ELEMENTS_GROUP = Registry.register(Registries.ITEM_GROUP,
@@ -16,6 +17,7 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModItems.ELEMENT_STONE)).entries((displayContext, entries) -> {
                         entries.add(ModItems.ELEMENT_STONE);
                         entries.add(ModItems.AMONGUS);
+                        entries.add(ModBlocks.GULLIBILLIUM_BLOCK);
                     }).build());
 
     public static void registerItemGroups() {

@@ -19,8 +19,8 @@ public class ModItems {
             new AmongusItem(new FabricItemSettings().maxCount(1)));
 
     private static void addItemsToToolsItemGroup(FabricItemGroupEntries entries) {
-        entries.add(ELEMENT_STONE);
-        entries.add(AMONGUS);
+        //entries.add(ELEMENT_STONE);
+        //entries.add(AMONGUS);
     }
 
     private static Item registerItem(String name, Item item) {
