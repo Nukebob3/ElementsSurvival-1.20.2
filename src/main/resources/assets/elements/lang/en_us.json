@@ -7,5 +7,8 @@
   "tooltip.elements.amongus.tooltip": "SUS",
   "tooltip.elements.element_stone.tooltip": "SUS",
 
-  "block.elements.gullibillium_block": "Gullibillium Block"
+  "block.elements.gullibillium_block": "Gullibillium Block",
+
+  "key.elements.category.elements": "Elements Survival",
+  "key.elements.primary_ability": "Primary Ability"
 }
