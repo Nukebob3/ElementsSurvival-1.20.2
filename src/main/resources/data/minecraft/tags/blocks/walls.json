@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "elements:spirit_stone_wall",
+    "elements:spirit_stone_brick_wall",
+    "elements:darkened_spirit_stone_wall",
+    "elements:darkened_spirit_stone_brick_wall"
+  ]
+}

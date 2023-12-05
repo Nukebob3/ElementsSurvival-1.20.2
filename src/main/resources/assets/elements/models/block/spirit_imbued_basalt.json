@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_column",
+  "textures": {
+    "end": "elements:block/spirit_imbued_basalt_top",
+    "side": "elements:block/spirit_imbued_basalt_side"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_wall_post",
+  "textures": {
+    "wall": "elements:block/darkened_spirit_stone_bricks"
+  }
+}

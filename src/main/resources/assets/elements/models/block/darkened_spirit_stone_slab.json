@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "elements:block/darkened_spirit_stone",
+    "side": "elements:block/darkened_spirit_stone",
+    "top": "elements:block/darkened_spirit_stone"
+  }
+}

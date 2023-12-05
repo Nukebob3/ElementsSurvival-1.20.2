@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "elements:block/spirit_stone_brick_slab"
+    },
+    "type=double": {
+      "model": "elements:block/spirit_stone_bricks"
+    },
+    "type=top": {
+      "model": "elements:block/spirit_stone_brick_slab_top"
+    }
+  }
+}

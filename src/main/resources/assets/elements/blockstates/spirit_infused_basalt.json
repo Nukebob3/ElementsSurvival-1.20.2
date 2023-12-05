@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "elements:block/spirit_infused_basalt",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "elements:block/spirit_infused_basalt"
+    },
+    "axis=z": {
+      "model": "elements:block/spirit_infused_basalt",
+      "x": 90
+    }
+  }
+}

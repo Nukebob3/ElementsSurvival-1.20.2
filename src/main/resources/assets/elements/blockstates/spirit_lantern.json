@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "hanging=false": {
+      "model": "elements:block/spirit_lantern"
+    },
+    "hanging=true": {
+      "model": "elements:block/spirit_lantern_hanging"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "elements:block/darkened_spirit_stone_slab"
+    },
+    "type=double": {
+      "model": "elements:block/darkened_spirit_stone"
+    },
+    "type=top": {
+      "model": "elements:block/darkened_spirit_stone_slab_top"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "elements:block/spirit_stone_bricks",
+    "side": "elements:block/spirit_stone_bricks",
+    "top": "elements:block/spirit_stone_bricks"
+  }
+}
